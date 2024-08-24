@@ -54,6 +54,7 @@ Files
 
 	- Readme.txt
 	- hour.csv : bike sharing counts aggregated on hourly basis. Records: 17379 hours
+		*** The hours without any rental bikes are eleminated.
 	- day.csv - bike sharing counts aggregated on daily basis. Records: 731 days
 
 	
