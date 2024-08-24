@@ -44,18 +44,10 @@ virtualenv bike_sharing_env
 Once the virtual environment is activated, install the necessary packages:
 
 ```bash
-pip install pandas numpy matplotlib seaborn scikit-learn
+pip install -r requirements.txt
 ```
 
-### 5. Generate `requirements.txt`
-
-To capture the installed packages in a `requirements.txt` file, run:
-
-```bash
-pip freeze > requirements.txt
-```
-
-### 6. Deactivate the Virtual Environment
+### 5. Deactivate the Virtual Environment
 
 When you're done, deactivate the virtual environment with:
 
@@ -63,6 +55,3 @@ When you're done, deactivate the virtual environment with:
 deactivate
 ```
 
----
-
-Copy and paste this into your `README.md` file in the root directory of your GitHub repository. This will guide users through the process of setting up their environment to work with your code.
